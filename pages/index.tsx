@@ -2,6 +2,7 @@ import { Main } from 'next/document'
 import Head from 'next/head'
 import Image from 'next/image'
 import FirstPage from '../components/FirstPage'
+import SecondPage from '../components/SecondPage'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -11,7 +12,8 @@ export default function Home() {
         <title>Sirius Future</title>
       </Head>
       
-      <FirstPage />
+      {/* <FirstPage /> */}
+      <SecondPage />
 
     </div>
   )
